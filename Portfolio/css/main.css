@@ -405,8 +405,7 @@ color:#ff004f;
 
 /*------ responsive-------*/
 
-@media  screen only and(max-width:600px){
-
+@media  only screen and(max-width:600px){
 #header{
 background-image:url(images/e.jpg);
 
@@ -429,7 +428,7 @@ font-size:25px;
 nav ul{
 
 background:#ff004f;
-position: fixed;
+position:fixed;
 top:0;
 right:0px;
 width:200px;
@@ -439,20 +438,14 @@ padding-top: 50px;
 }
 
 nav ul li{
-
 display:block;
 margin:25px;
-
-
 }
 nav ul .bi{
-
 position: absolute;
 top: 25px;
 left: 25px;
 cursor: pointer;
-
-
 }
 
 
