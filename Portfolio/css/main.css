@@ -428,15 +428,13 @@ font-size:25px;
 }
 
 nav ul{
-
+width:200px;
+height: 100vh; 
 background:#ff004f;
 position:fixed;
 top:0;
 right:0px;
-width:200px;
-height: 100vh;
 padding-top: 50px;
-
 }
 
 nav ul li{
