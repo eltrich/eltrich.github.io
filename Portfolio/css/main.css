@@ -408,7 +408,7 @@ display:none;
 }
 /*------ responsive-------*/
 
-@media  screen and(min-width:600px){
+@media  screen only and(max-width:600px){
 
 #header{
 background-image:url(images/e.jpg);
