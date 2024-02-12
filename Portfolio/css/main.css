@@ -402,10 +402,7 @@ color:#ff004f;
 
 }
 
-nav .bi{
-display:none;
 
-}
 /*------ responsive-------*/
 
 @media  screen only and(max-width:600px){
@@ -422,9 +419,7 @@ font-size: 16px;
 .header-text h1{
 font-size: 30px;
 }
-nav{
-display:block;
-}
+
 nav .bi{
 display:block;
 font-size:25px;
