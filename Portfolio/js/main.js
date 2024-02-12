@@ -23,7 +23,7 @@ document.getElementById(tabName).classList.add('active-tab');
 //pages- function
 function viewPage(){
 
-for(tablink of tablinks){
+for(page of pages){
 
 tablink.classList.remove('active-page');
 
