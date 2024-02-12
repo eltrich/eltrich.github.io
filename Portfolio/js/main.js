@@ -1,7 +1,7 @@
 //selectors
 var tablinks=document.querySelectorAll('.tab-links');
 var tabcontents=document.querySelectorAll('.tab-contents');
-var pages=document.querySelectorAll('.pages');
+
 //functions
 function openTab(tabName){
 
@@ -21,6 +21,9 @@ document.getElementById(tabName).classList.add('active-tab');
 
 }
 //pages- function
+//select
+var pages=document.querySelectorAll('.pages');
+//function
 function viewPage(){
 
 for(page of pages){
