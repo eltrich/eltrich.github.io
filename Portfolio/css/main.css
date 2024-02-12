@@ -64,7 +64,7 @@ transition:0.5s;
 
 }
 
-nav ul li a.pages.active-page{
+nav ul li a.active-page{
 color:#ff004f;
 }
 nav ul li a:hover::after{
