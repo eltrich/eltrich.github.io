@@ -34,6 +34,7 @@ tablink.classList.remove('active-page');
 
 
 event.currentTarget.classList.add('active-page');
+  event.previousTarget.classList.remove('active-page');
 
 
 }
