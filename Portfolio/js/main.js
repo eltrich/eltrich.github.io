@@ -24,7 +24,7 @@ document.getElementById(tabName).classList.add('active-tab');
 //select
 var pages=document.querySelectorAll('.pages');
 //function
-function viewPage(){
+function viewPage(pageName){
 
 for(page of pages){
 
@@ -34,7 +34,7 @@ tablink.classList.remove('active-page');
 
 
 event.currentTarget.classList.add('active-page');
-  event.previousTarget.classList.remove('active-page');
+document.getElementById(pageName).classList.add('active-page');
 
 
 }
