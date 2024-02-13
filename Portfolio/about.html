@@ -4,14 +4,77 @@
 
 <meta charset="UTF-8">
 <meta name="description" content="form submition message">
-<meta name="viewport" content="device=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
+<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div id="message">
-<p>Your form has been submitted successfully.</p>
+  <div class="container">
+    
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#"class="">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Services</a></li>
+       <li><a href="#">Portfolio</a></li>
+    </ul>
+  </nav>
+    
 </div>
+<div id="about">
+<div class="container">
+<div class="row">
+<div class="about-col-1">
+<img src="images/d.jpg">
+</div>
+
+<div class="about-col-2">
+<h1 class="sub-title">About Me</h1>
+  <p>Hi there, I'm Melvin, a front end developer.I was born in khorixas, Namibia.</p>
+
+<div class="tab-titles">
+
+ <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+  <p class="tab-links" onclick="openTab('experience')">Experience</p>
+  <p class="tab-links" onclick="openTab('education')">Education</p>
+
+</div>
+<div class="tab-contents active-tab" id="skills">
+
+<ul>
+<li><span>UI/UX</span><br>Designing Web/Appp interfaces</li>
+<li><span>Web Development</span><br>Web/Appp development</li>
+<li><span>App Development</span><br>Building Android, iOS apps.</li>
+</ul>
+</div>
+ <div class="tab-contents" id="experience">
+
+ <ul>
+   
+ <li><span>2019-current</span><br>Designed a tip calculator,budget manager,portfolio site using html,css,js.</li>
+
+  </ul>
+
+ </div>
+  <div class="tab-contents" id="education">
+
+ <ul>
+ <li><span>W3schools, from 2019-current</span><br>Took a course in web development online.</li>
+
+</ul>
+    
+ </div> 
+  
+</div>
+  
+</div>
+  
+</div> 
+  
+</div>
+
 </body>
-<script>
+<script src="js/main.js">
 </script>
 </html>
