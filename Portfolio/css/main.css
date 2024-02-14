@@ -321,7 +321,9 @@ background:#ff004f;
 }
 
 /*-------contact---------*/
-
+#contact{
+padding:80px;
+}
 .contact-left{
 flex-basis:35%;
 
