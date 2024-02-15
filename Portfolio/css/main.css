@@ -410,11 +410,8 @@ display:none;
 }
 /*------ responsive-------*/
 
-@media  only screen and(max-width:600px){
-#header{
-background-image:url(images/e.jpg);
+@media  screen and(min-width:600px){
 
-}
 .header-text{
 margin-top:100%;
 font-size: 16px;
@@ -424,7 +421,7 @@ font-size: 16px;
 font-size: 30px;
 }
 
-nav .bi{
+nav.bi{
 display:block;
 font-size:25px;
 
