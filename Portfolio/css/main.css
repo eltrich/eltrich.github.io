@@ -232,8 +232,9 @@ transition: transform 0.5s;
 
 }
 /*--------portfolio---------*/
+
 #portfolio{
-padding: 50px 0px;
+padding: 50px;
 }
 .work-list{
 display:grid;
