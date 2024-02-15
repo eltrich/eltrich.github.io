@@ -421,7 +421,7 @@ font-size: 16px;
 font-size: 30px;
 }
 
-nav.bi{
+nav .bi{
 display:block;
 font-size:25px;
 
@@ -433,7 +433,7 @@ height: 100%;
 background:#ff004f;
 position:fixed;
 top:0;
-right:0px;
+right:0;
 padding-top: 50px;
 }
 
