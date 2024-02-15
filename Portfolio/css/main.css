@@ -399,8 +399,8 @@ font-weight: 300;
 margin-top: 20px;
 
 }
-.copyright i{
-margin:3px;
+.copyright .bi{
+margin:5px;
 color:#ff004f;
 
 }
