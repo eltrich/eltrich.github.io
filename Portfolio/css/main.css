@@ -404,12 +404,12 @@ margin:5px;
 color:#ff004f;
 
 }
+
+
+/*------ responsive-------*/
 nav .bi{
 display:none;
 }
-
-/*------ responsive-------*/
-
 @media only screen and(min-width:600px){
 
 .header-text{
