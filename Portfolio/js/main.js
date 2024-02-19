@@ -29,6 +29,6 @@ sideMenu.style.right="0";
 }
 
 function openMenu(){
-sideMenu.style.right="-200px";
+sideMenu.style.right="-200";
 
 }
