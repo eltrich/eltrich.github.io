@@ -16,7 +16,7 @@ color:#fff;
 #header{
 
 width:100%;
-height:95vh;
+height:80%;
 background-size:cover;
 background-position:center;
 
@@ -391,6 +391,7 @@ cursor: pointer;
 
 .copyright{
 width:100%;
+  height:19%;
 text-align:center;
 padding: 25px 0;
 background:#262626;
