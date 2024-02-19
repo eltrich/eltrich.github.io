@@ -20,21 +20,5 @@ event.currentTarget.classList.add('active-link');
 document.getElementById(tabName).classList.add('active-tab');
 
 }
-//pages- function
-//select
-var pages=document.querySelectorAll('.pages');
-//function
-function viewPage(pageName){
-
-for(page of pages){
-
-tablink.classList.remove('active-page');
-
-}
-
-
-event.currentTarget.classList.add('active-page');
-document.getElementById(pageName).classList.add('active-page');
-
-
-}
+//menu- control
+var sideMenu=document.getElementById('side-menu');
