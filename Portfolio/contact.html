@@ -19,7 +19,7 @@
       <h1><span>M</span>elvin</h1>
     </div>
  
-    <ul id="side-menu">
+    <ul id="sidemenu">
       <li><a href="index.html" class="pages">Home</a></li>
       <li><a href="about.html" class="pages ">About</a></li>
       <li><a href="#" class="pages active-page">Contact</a></li>
@@ -76,4 +76,18 @@
       .catch(error => console.error('Error!', error.message))
   })
 </script>
+ <script>
+  //menu- control
+
+
+//functions
+function closemenu(){
+  document.getElementById('sidemenu').style.right="0";
+}
+
+function openmenu(){
+ document.getElementById('sidemenu').style.right="-200";
+
+}
+ </script>
 </html>
