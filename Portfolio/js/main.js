@@ -33,5 +33,4 @@ function openMenu(){
  document.getElementById('sidemenu').style.right="-200px";
 
 }
-document.querySelector('.bi.bi-list').addEventListener('click',openMenu());
-document.querySelector('.bi.bi-x').addEventListener('click',closeMenu());
+
