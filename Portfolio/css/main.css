@@ -451,3 +451,45 @@ cursor: pointer;
 
 
 }
+@media only screen and (max-width:768px){
+
+.header-text{
+margin-top:100%;
+font-size: 16px;
+
+}
+.header-text h1{
+font-size: 30px;
+}
+
+nav .bi{
+display:block;
+font-size:25px;
+
+}
+
+nav ul{
+width:200px;
+height: 100vh; 
+background:#ff004f;
+position:fixed;
+top:0;
+right:-200px;
+padding-top: 50px;
+  z-index:2;
+  transition:0.5s;
+}
+
+nav ul li{
+display:block;
+margin:25px;
+}
+nav ul .bi{
+position: absolute;
+top: 25px;
+left: 25px;
+cursor: pointer;
+}
+
+
+}
