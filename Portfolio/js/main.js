@@ -21,16 +21,5 @@ document.getElementById(tabName).classList.add('active-tab');
 
 }
 
-//menu- control
 
-
-//functions
-function closemenu(){
-  document.getElementById('sidemenu').style.right="0";
-}
-
-function openmenu(){
- document.getElementById('sidemenu').style.right="-200";
-
-}
 
