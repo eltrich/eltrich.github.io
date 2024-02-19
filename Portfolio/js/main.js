@@ -25,11 +25,11 @@ document.getElementById(tabName).classList.add('active-tab');
 
 
 //functions
-function closeMenu(){
+function closemenu(){
   document.getElementById('sidemenu').style.right="0";
 }
 
-function openMenu(){
+function openmenu(){
  document.getElementById('sidemenu').style.right="-200";
 
 }
