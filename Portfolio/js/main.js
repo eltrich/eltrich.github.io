@@ -26,11 +26,11 @@ document.getElementById(tabName).classList.add('active-tab');
 
 //functions
 function closeMenu(){
-  document.getElementById('side-menu').style.right="0px";
+  document.getElementById('sidemenu').style.right="0px";
 }
 
 function openMenu(){
- document.getElementById('side-menu').style.right="-200px";
+ document.getElementById('sidemenu').style.right="-200px";
 
 }
 document.querySelector('.bi.bi-list').addEventListener('click',openMenu());
