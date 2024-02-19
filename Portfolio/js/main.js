@@ -20,6 +20,7 @@ event.currentTarget.classList.add('active-link');
 document.getElementById(tabName).classList.add('active-tab');
 
 }
+
 //menu- control
 
 
@@ -32,3 +33,5 @@ function openMenu(){
  document.getElementById('side-menu').style.right="-200px";
 
 }
+document.querySelector('.bi.bi-list').addEventListener('click',openMenu());
+document.querySelector('.bi.bi-x').addEventListener('click',closeMenu());
