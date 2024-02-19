@@ -410,7 +410,9 @@ nav .bi{
 display:none;
 }
 @media only screen and (max-width:600px){
-
+.pages.active-page{
+color:maroon;
+}
 .header-text{
 margin-top:100%;
 font-size: 16px;
@@ -452,7 +454,9 @@ cursor: pointer;
 
 }
 @media only screen and (max-width:768px){
-
+.pages.active-page{
+color:maroon;
+}
 .header-text{
 margin-top:100%;
 font-size: 16px;
