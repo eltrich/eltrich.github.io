@@ -21,14 +21,14 @@ document.getElementById(tabName).classList.add('active-tab');
 
 }
 //menu- control
-//selector
-var sideMenu=document.getElementById('side-menu');
+
+
 //functions
 function closeMenu(){
-sideMenu.style.right="0";
+  document.getElementById('side-menu').style.right="0px";
 }
 
 function openMenu(){
-sideMenu.style.right="-200";
+ document.getElementById('side-menu').style.right="-200px";
 
 }
