@@ -413,7 +413,7 @@ display:none;
 }
 @media only screen and (max-width:600px){
   .sub-title{
-font-size:30px;
+font-size:40px;
   }
 .pages.active-page{
 color:blue;
@@ -460,7 +460,7 @@ cursor: pointer;
 }
 @media only screen and (max-width:768px){
   .sub-title{
-font-size:30px;
+font-size:40px;
   }
 .pages.active-page{
 color:blue;
