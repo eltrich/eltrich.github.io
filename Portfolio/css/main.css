@@ -415,6 +415,10 @@ display:none;
   .sub-title{
 font-size:40px;
   }
+  #contact{
+padding:40px;
+
+  }
 .pages.active-page{
 color:blue;
 }
