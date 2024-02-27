@@ -29,10 +29,21 @@ display:inline-block;
 margin-right:20px;
     }
     nav ul li a{
-color:black;
+        color:black;
         text-decoration:none;
+        transition:0.5s;
     }
-
+.active-page::after{
+content:'';
+height:3px;
+width:3px;
+border-radius:50%;
+background:pink;
+}
+nav ul li a:hover::after{
+width:20px;
+border-radius:0;
+}
 
     #overview{
 display:flex;
@@ -85,7 +96,7 @@ padding:20px;
 <h1>Amy's Nail Salon</h1>
 </div>
     <ul>
-        <li><a href="#">HOME</a></li>
+        <li><a href="#" class="active-page">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">CONTACT</a></li>
         <li><a href="#">SERVICES</a></li>
