@@ -94,6 +94,9 @@ font-size:30px;
 font-size:60px;
 margin-top:-20px;
 }
+.header-text p{
+margin:5px;
+}
 .header-text h1 span{
 color:#ff004f;
 }
