@@ -12,7 +12,7 @@ color:black;
 text-decoration:none;
 margin:30px;
 }
-ul li a:hover{
+ul li a::hover{
 background:lavender ;
 color:blue;
 
