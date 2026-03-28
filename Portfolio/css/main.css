@@ -486,13 +486,13 @@ height:100vh;
 
  }
   .sub-title{
-font-size:40px;
+font-size:30px;
   }
 .pages.active-page{
 color:blue;
 }
 .header-text{
-margin-top:70%;
+margin-top:100%;
 font-size: 16px;
 
 }
